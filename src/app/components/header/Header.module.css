@@ -1,0 +1,60 @@
+/* header.css */
+
+/* Common Styles */
+.menu-item {
+  text-align: center;
+  border-bottom: 2px solid transparent;
+  font-size: 14px;
+}
+
+.menu-link {
+  cursor: pointer;
+  display: block;
+  padding: 14px 16px;
+  color: white;
+}
+
+.menu-item:hover .menu-link {
+  background-color: #2d3748; /* Darker gray for hover */
+  color: #4299e1; /* Blue color on hover */
+}
+
+.buy-now-btn {
+  padding: 8px 16px;
+  border: 2px solid #4299e1; /* Blue border */
+  border-radius: 9999px; /* Fully rounded */
+  color: white;
+  background-color: transparent;
+  transition: background-color 0.3s;
+}
+
+.buy-now-btn:hover {
+  background-color: #4299e1; /* Blue background on hover */
+}
+
+/* Desktop Styles */
+.desktop-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 24px; /* Spacing between menu items */
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
+  .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .mobile-menu .menu-item {
+    margin-bottom: 16px;
+  }
+
+  .mobile-menu .menu-link {
+    padding: 14px 0; /* Adjust padding to make the links more centered */
+  }
+}
