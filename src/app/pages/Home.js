@@ -6,6 +6,7 @@ import Blog from './Blog';
 import Contact from './Contact';
 import BigTech from '../components/home/BigTech';
 import OurTeam from '../components/home/OurTeam';
+import Hero from '../components/Hero/Hero';
 
 
 
@@ -19,6 +20,7 @@ function Home() {
         <RoadMap />
         <BigTech />
         <OurTeam />
+        <Hero />
       </section>
      
     </div>

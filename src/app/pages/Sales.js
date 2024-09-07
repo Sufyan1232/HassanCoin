@@ -7,7 +7,7 @@ function Sales() {
     const [activeTab, setActiveTab] = useState('funding'); 
 
     return (
-        <div className='w-full lg:w-[1400px] flex flex-col lg:flex-row bg-purple-500 h-auto lg:h-[500px]'
+        <div className='w-full flex flex-col lg:flex-row bg-purple-500 h-auto lg:h-[500px]'
         style={{
             backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(${earth.src})`,
             backgroundSize: 'cover',
