@@ -45,9 +45,20 @@ function OurTeam() {
       </div>
       <div style={{ textAlign: "center" }} className='font-bold text-[#fff] text-[35px] flex justify-center mt-[20px] mx-[10px]'>The Leadership</div>
       <div className='font-bold text-[#00c4f4] text-[35px] flex justify-center ml-2'>Team</div>
-
-      <div className='grid grid-cols-4 text-center justify-center items-center auto-rows-fr'>
-        
+      {/* auto-fill, minmax(200px, 2fr) */}
+      <div 
+      style={{
+        width:"90%",
+        margin: "0 auto", // Centers the div horizontally
+        placeItems: "center", // Centers items within each grid cell
+        placeContent: "center", // Centers the entire grid content
+        display: "grid",
+        gap: "120px",
+        gridTemplateColumns: "repeat(auto-fill, minmax(200px, 2fr))",
+        gridAutoRows: "minmax(100px, auto)",
+        gridAutoColumns: "minmax(50px, auto)",
+      }}
+      className=''>
         <div className='flex flex-col items-center mt-[50px]'>
           <div>
             <img src={team01.src} className='mx-auto' alt='Team Member' />
