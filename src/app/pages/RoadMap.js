@@ -30,7 +30,7 @@ function RoadMap() {
   }, []);
 
   return (
-    <div className='bg-[#081728] w-full py-[70px]'>
+    <div className='bg-[#081728] w-screen py-[70px]'>
 
       <div style={{display: "flex", flexDirection: "1 column"}} className='flex justify-center'>
         <div className='bg-[#00c4f4] w-[10px] h-[10px] rounded-[30px] mt-1.5'></div>
