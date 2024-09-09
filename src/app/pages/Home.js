@@ -20,21 +20,25 @@ function Home() {
     <div className='m-0 p-0'>
       <Header />
       <section id='home'>
-     
-      </section>
-      <section id="sales">
         <Hero />
+      </section>
+      <section id="about">
         <About />
         <Partners />
         <WhyChooseUs />
+      </section>
+      <section id="sales">
         <Sales />
       </section>
       <section id="roadmap">
         <RoadMap />
         <BigTech />
         <OurTeam />
-        <ContactSection />
        
+       
+      </section>
+      <section id='contactus'>
+        <ContactSection />
       </section>
      
     </div>
