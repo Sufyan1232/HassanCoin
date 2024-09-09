@@ -48,7 +48,7 @@ function RoadMap() {
       {isMobile ? (
         <div className='flex justify-center'>
           {/* Render roadmap image for mobile view */}
-          <img src={rmap.src} alt="Roadmap" />
+          {/* <img src={rmap.src} alt="Roadmap" /> */}
         </div>
       ) : (
         <div>
