@@ -152,14 +152,19 @@ function RoadMap() {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
+    // Function to check screen size using matchMedia
     const handleResize = () => {
-      setIsMobile(window.innerWidth <= 768);
+      const mobileQuery = window.matchMedia("(max-width: 768px)");
+      setIsMobile(mobileQuery.matches);
     };
 
-    // Check the screen size on component mount and update on resize
-    window.addEventListener('resize', handleResize);
+    // Check the screen size when the component mounts
     handleResize();
 
+    // Add event listener for window resize
+    window.addEventListener('resize', handleResize);
+
+    // Clean up event listener on component unmount
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
