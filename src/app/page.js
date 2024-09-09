@@ -6,7 +6,7 @@ import Home from "./pages/Home";
 function page() {
   return (
     <main className="">
-    <Header />
+    {/* <Header /> */}
     <Home />
    
 

@@ -7,20 +7,34 @@ import Contact from './Contact';
 import BigTech from '../components/home/BigTech';
 import OurTeam from '../components/home/OurTeam';
 import Hero from '../components/Hero/Hero';
+import Header from '../components/header/Header';
+import ContactSection from '../components/ContactSection/ContactSection';
+import Partners from '../components/Partners/Partners';
+import WhyChooseUs from '../components/WhyChooseUs/WhyChooseUs';
+import About from '../components/About/About';
 
 
 
 function Home() {
   return (
     <div className='m-0 p-0'>
+      <Header />
+      <section id='home'>
+     
+      </section>
       <section id="sales">
+        <Hero />
+        <About />
+        <Partners />
+        <WhyChooseUs />
         <Sales />
       </section>
       <section id="roadmap">
         <RoadMap />
         <BigTech />
         <OurTeam />
-        <Hero />
+        <ContactSection />
+       
       </section>
      
     </div>

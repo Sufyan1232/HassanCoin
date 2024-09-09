@@ -46,22 +46,28 @@ function OurTeam() {
       <div style={{ textAlign: "center" }} className='font-bold text-[#fff] text-[35px] flex justify-center mt-[20px] mx-[10px]'>The Leadership</div>
       <div className='font-bold text-[#00c4f4] text-[35px] flex justify-center ml-2'>Team</div>
       {/* auto-fill, minmax(200px, 2fr) */}
-      <div 
-      style={{
-        width:"90%",
-        margin: "0 auto", // Centers the div horizontally
-        placeItems: "center", // Centers items within each grid cell
-        placeContent: "center", // Centers the entire grid content
-        display: "grid",
-        gap: "120px",
-        gridTemplateColumns: "repeat(auto-fill, minmax(200px, 2fr))",
-        gridAutoRows: "minmax(100px, auto)",
-        gridAutoColumns: "minmax(50px, auto)",
-      }}
-      className=''>
+      <div
+        style={{
+          width: "90%",
+          margin: "0 auto", // Centers the div horizontally
+          placeItems: "center", // Centers items within each grid cell
+          placeContent: "center", // Centers the entire grid content
+          display: "grid",
+          gap: "120px",
+          gridTemplateColumns: "repeat(auto-fill, minmax(200px, 2fr))",
+          gridAutoRows: "minmax(100px, auto)",
+          gridAutoColumns: "minmax(50px, auto)",
+        }}
+        className=''>
         <div className='flex flex-col items-center mt-[50px]'>
-          <div>
-            <img src={team01.src} className='mx-auto' alt='Team Member' />
+          <div className="border-4 border-[#00c4f4] border-dotted p-[10px] rounded-[50%] w-full h-full">
+            <div>
+            <img
+              src={team01.src}
+              className="grayscale hover:grayscale-0 "
+              alt="Team Member"
+            />
+            </div>
           </div>
           <h3 className='text-[#fff] text-[20px] font-bold mt-[50px] mb-[15px]'>Cameron Williamson</h3>
           <h5 className='text-[#fff] text-[13px] font-bold mb-[15px]'>Founder & CO</h5>
@@ -72,9 +78,16 @@ function OurTeam() {
             <FaYoutube className='text-white hover:text-[#00c4f4]' />
           </div>
         </div>
+
         <div className='flex flex-col items-center mt-[50px]'>
-          <div>
-            <img src={team01.src} className='mx-auto' alt='Team Member' />
+          <div className="border-4 border-[#00c4f4] border-dotted p-[10px] rounded-[50%] w-full h-full">
+            <div>
+            <img
+              src={team01.src}
+              className="grayscale hover:grayscale-0 "
+              alt="Team Member"
+            />
+            </div>
           </div>
           <h3 className='text-[#fff] text-[20px] font-bold mt-[50px] mb-[15px]'>Cameron Williamson</h3>
           <h5 className='text-[#fff] text-[13px] font-bold mb-[15px]'>Founder & CO</h5>
@@ -85,9 +98,16 @@ function OurTeam() {
             <FaYoutube className='text-white hover:text-[#00c4f4]' />
           </div>
         </div>
+
         <div className='flex flex-col items-center mt-[50px]'>
-          <div>
-            <img src={team01.src} className='mx-auto' alt='Team Member' />
+          <div className="border-4 border-[#00c4f4] border-dotted p-[10px] rounded-[50%] w-full h-full">
+            <div>
+            <img
+              src={team01.src}
+              className="grayscale hover:grayscale-0 "
+              alt="Team Member"
+            />
+            </div>
           </div>
           <h3 className='text-[#fff] text-[20px] font-bold mt-[50px] mb-[15px]'>Cameron Williamson</h3>
           <h5 className='text-[#fff] text-[13px] font-bold mb-[15px]'>Founder & CO</h5>
@@ -98,35 +118,16 @@ function OurTeam() {
             <FaYoutube className='text-white hover:text-[#00c4f4]' />
           </div>
         </div>
+
         <div className='flex flex-col items-center mt-[50px]'>
-          <div>
-            <img src={team01.src} className='mx-auto' alt='Team Member' />
-          </div>
-          <h3 className='text-[#fff] text-[20px] font-bold mt-[50px] mb-[15px]'>Cameron Williamson</h3>
-          <h5 className='text-[#fff] text-[13px] font-bold mb-[15px]'>Founder & CO</h5>
-          <div className='grid grid-cols-4 gap-0 w-[150px]'>
-            <FaFacebookF className='text-white hover:text-[#00c4f4]' />
-            <FaTwitter className='text-white hover:text-[#00c4f4]' />
-            <FaInstagram className='text-white hover:text-[#00c4f4]' />
-            <FaYoutube className='text-white hover:text-[#00c4f4]' />
-          </div>
-        </div>
-        <div className='flex flex-col items-center mt-[50px]'>
-          <div>
-            <img src={team01.src} className='mx-auto' alt='Team Member' />
-          </div>
-          <h3 className='text-[#fff] text-[20px] font-bold mt-[50px] mb-[15px]'>Cameron Williamson</h3>
-          <h5 className='text-[#fff] text-[13px] font-bold mb-[15px]'>Founder & CO</h5>
-          <div className='grid grid-cols-4 gap-0 w-[150px]'>
-            <FaFacebookF className='text-white hover:text-[#00c4f4]' />
-            <FaTwitter className='text-white hover:text-[#00c4f4]' />
-            <FaInstagram className='text-white hover:text-[#00c4f4]' />
-            <FaYoutube className='text-white hover:text-[#00c4f4]' />
-          </div>
-        </div>
-        <div className='flex flex-col items-center mt-[50px]'>
-          <div>
-            <img src={team01.src} className='mx-auto' alt='Team Member' />
+          <div className="border-4 border-[#00c4f4] border-dotted p-[10px] rounded-[50%] w-full h-full">
+            <div>
+            <img
+              src={team01.src}
+              className="grayscale hover:grayscale-0 "
+              alt="Team Member"
+            />
+            </div>
           </div>
           <h3 className='text-[#fff] text-[20px] font-bold mt-[50px] mb-[15px]'>Cameron Williamson</h3>
           <h5 className='text-[#fff] text-[13px] font-bold mb-[15px]'>Founder & CO</h5>
@@ -138,11 +139,15 @@ function OurTeam() {
           </div>
         </div>
         
+        
+
+
+        
+
+       
+
 
       </div>
-
-
-
     </div>
   );
 }

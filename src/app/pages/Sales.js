@@ -2,12 +2,13 @@
 import React, { useState } from 'react';
 import saleImg from '../images/chart.png'; 
 import earth from '../images/earth.jpg'; 
+import { FaCircle } from "react-icons/fa";
 
 function Sales() {
     const [activeTab, setActiveTab] = useState('funding'); 
 
     return (
-        <div className='w-full flex flex-col lg:flex-row bg-purple-500 h-auto lg:h-[500px]'
+        <div className='w-full flex flex-col lg:flex-row bg-purple-500 h-auto lg:h-[500px] '
         style={{
             backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(${earth.src})`,
             backgroundSize: 'cover',
@@ -63,29 +64,29 @@ function Sales() {
             </div>
 
             {/* Right box */}
-            <div className='w-full lg:w-1/2 flex flex-col'>
-                <div className='bg-[#0b1d33] w-full lg:w-[70%] h-auto pt-[25px] lg:h-[90%] rounded-[30px] lg:ml-3 px-5 lg:px-[40px] py-10 text-[#fff] text-[13px]'>
+            <div className='w-full lg:w-1/2 flex flex-col '>
+                <div className='bg-[#0b1d33] mb-5 mt-[25px] w-full lg:w-[70%] h-auto pt-[25px] lg:h-[90%] rounded-[30px] lg:ml-3 px-5 lg:px-[40px] py-10 text-[#fff] text-[13px]'>
                     <div className='mb-[70px] flex justify-center'>
                         <img src={saleImg.src} className='w-[150px] lg:w-[200px]' />
                     </div>
                     
                      <div>
                        <div style={{display: "flex", flexDirection:"2 column", marginBottom:"10px"}}>
-                         <div className='w-[20px] h-[20px] rounded-[30px] bg-neutral-500'></div>
+                         <FaCircle size={20} color="#005F73"  />
                          <div className='ml-[10px] mr-[48px]'>Contingency: 70%</div>
-                         <div className='w-[20px] h-[20px] rounded-[30px] bg-neutral-500'></div>
+                         <FaCircle size={20} color="#005F73"  />
                          <div className='ml-[10px] mr-[10px]'>Business Development: 10%</div>
                        </div>
                        <div style={{display: "flex", flexDirection:"1 column",  marginBottom:"10px"}}>
-                         <div className='w-[20px] h-[20px] rounded-[30px] bg-neutral-500'></div>
+                       <FaCircle size={20} color="#005F73"  />
                          <div className='ml-[10px] mr-[76px]'>Investor: 30%</div>
-                         <div className='w-[20px] h-[20px] rounded-[30px] bg-neutral-500'></div>
+                         <FaCircle size={20} color="#005F73"  />
                          <div className='ml-[10px] mr-[10px]'>Pland: 8%</div>
                        </div>
                        <div style={{display: "flex", flexDirection:"1 column",  marginBottom:"10px" }}>
-                         <div className='w-[20px] h-[20px] rounded-[30px] bg-neutral-500'></div>
+                       <FaCircle size={20} color="#005F73"  />
                          <div className='ml-[10px] mr-[15px]'>Legal & Regulation: 10%</div>
-                         <div className='w-[20px] h-[20px] rounded-[30px] bg-neutral-500'></div>
+                         <FaCircle size={20} color="#005F73"  />
                          <div className='ml-[10px] mr-[10px]'>Czech Republic: 15%</div>
                        </div>
                      </div> 
