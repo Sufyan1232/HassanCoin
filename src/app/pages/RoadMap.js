@@ -30,7 +30,7 @@ function RoadMap() {
   }, []);
 
   return (
-    <div className='bg-[#081728] w-screen py-[70px]'>
+    <div className='bg-[#081728] w-[100%] py-[70px]'>
 
       <div style={{display: "flex", flexDirection: "1 column"}} className='flex justify-center'>
         <div className='bg-[#00c4f4] w-[10px] h-[10px] rounded-[30px] mt-1.5'></div>
@@ -86,14 +86,14 @@ function RoadMap() {
         </div>        
       </div>
 
-      <div style={{display: "flex", flexDirection: "1 column"}} className='bg-slate-700 w-full h-[7px]' >
-        <div className=' bg-[#46b9e6] ml-[40px] mt-[-10px] rounded-[30px] w-[20px] h-[20px]'></div>
+      <div style={{display: "flex", flexDirection: "1 column"}} className='bg-slate-700  h-[7px]' >
+        {/* <div className=' bg-[#46b9e6] ml-[40px] mt-[-10px] rounded-[30px] w-[20px] h-[20px]'></div>
         <div className=' bg-[#e646a6] ml-[150px] mt-[-10px] rounded-[30px] w-[20px] h-[20px]'></div>
         <div className=' bg-[#f48a00] ml-[142px] mt-[-10px] rounded-[30px] w-[20px] h-[20px]'></div>
         <div className=' bg-[#46e65e] ml-[170px] mt-[-10px] rounded-[30px] w-[20px] h-[20px]'></div>
         <div className=' bg-[#4651e6] ml-[137px] mt-[-10px] rounded-[30px] w-[20px] h-[20px]'></div>
         <div className=' bg-[#f48a00] ml-[175px] mt-[-10px] rounded-[30px] w-[20px] h-[20px]'></div>
-        <div className=' bg-[#f400bf] ml-[135px] mt-[-10px] rounded-[30px] w-[20px] h-[20px]'></div>
+        <div className=' bg-[#f400bf] ml-[135px] mt-[-10px] rounded-[30px] w-[20px] h-[20px]'></div> */}
        
       </div>
 
