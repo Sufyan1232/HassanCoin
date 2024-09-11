@@ -81,16 +81,16 @@ const Hero = () => {
       </div>
 
       <p className="text-sm md:text-lg text-white mb-4 text-center mt-10">
-        Join the revolution! Our token sale is live. Donot miss the chance to
+        Join the revolution! Our token sale is live. Do not miss the chance to
         get involved early.
       </p>
 
       {/* Timer Counter */}
-      <div className="flex flex-wrap justify-center md:justify-start space-x-4 text-center">
+      <div className="flex flex-nowrap justify-center md:justify-start space-x-4 lg:space-x-8 text-center">
         <div className="flex flex-col items-center">
           <p
             className="text-cyan-400 p-2 rounded text-4xl md:text-6xl font-bold"
-            
+            style={{ width: "60px" }} // Reduced width on mobile
           >
             {String(timeLeft.days).padStart(2, "0")}
           </p>
@@ -99,7 +99,7 @@ const Hero = () => {
         <div className="flex flex-col items-center">
           <p
             className="text-amber-600 p-2 rounded text-4xl md:text-6xl font-bold"
-            
+            style={{ width: "60px" }} // Reduced width on mobile
           >
             {String(timeLeft.hours).padStart(2, "0")}
           </p>
@@ -108,7 +108,7 @@ const Hero = () => {
         <div className="flex flex-col items-center">
           <p
             className="text-red-600 p-2 rounded text-4xl md:text-6xl font-bold"
-            
+            style={{ width: "60px" }} // Reduced width on mobile
           >
             {String(timeLeft.minutes).padStart(2, "0")}
           </p>
@@ -117,7 +117,7 @@ const Hero = () => {
         <div className="flex flex-col items-center">
           <p
             className="text-green-600 p-2 rounded text-4xl md:text-6xl font-bold"
-            
+            style={{ width: "60px" }} // Reduced width on mobile
           >
             {String(timeLeft.seconds).padStart(2, "0")}
           </p>
